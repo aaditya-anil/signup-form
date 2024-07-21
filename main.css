@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;   
+}
+.container{
+    display: flex;
+    height: 80%;
+    width: 80%;
+
+}
+
+
+.left-page{
+    display: flex;
+    width: 30%;
+    background-color: #000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),url(img/roan-lavery-lvy_VvdLmnA-unsplash.jpg);
+    background-position: center;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.maintext-element{
+    font-size: 72px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+}
+
+.right-page{
+    display: flex;
+    flex-direction: column;
+    
+    padding: 24px 24px 24px 24px;
+    justify-content:space-around;
+    width: 70%;
+    background-color: rgb(224, 224, 224);
+}
+
+.right-page p{
+    font-size: 24px;
+}
+
+.right-page p:last-child{
+    font-size: 16px;
+}
+
+.input-class{
+    display: flex;
+    gap: 12px;
+}
+
+.input-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-left{
+    display: flex;
+    flex-direction: column;
+}
