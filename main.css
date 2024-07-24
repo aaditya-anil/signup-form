@@ -69,9 +69,7 @@ body{
     gap: 12px;
 }
 
-input{
-    border: #f77979;
-}
+
 
 .label-input{
     display: flex;
@@ -111,6 +109,17 @@ input{
     border-color: #b8b8b8;
     border-width: 1px;    
     border-style: solid;
+}
+
+input:invalid{
+    border-color: red;
+}
+
+input:focus{
+    border-color: rgb(65, 109, 67);
+    border-width: 1px;    
+    border-style: solid;
+    background-color: #f3f3f3;
 }
 
 a{
